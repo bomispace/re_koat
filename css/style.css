@@ -326,6 +326,7 @@ a {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/*2번째장 시작*/
 #notice {
   height: 100vh;
   position: relative;
@@ -340,25 +341,28 @@ a {
   opacity: 40%;
   z-index: -1;
 }
+#notice .notice_wrap {
+  display: flex;
+}
 #notice #news_left {
-  float: left;
+  width: 25%;
   padding-top: 180px;
-  margin-right: 60px;
-  max-width: 440px;
 }
 #notice #news_left p {
   font-family: "KOTRAHOPE";
-  font-size: 40px;
+  font-size: 1.75rem;
   color: #222222;
   padding-bottom: 20px;
 }
 #notice #news_left h2 {
-  font-size: 50px;
+  font-size: 2rem;
   font-weight: bold;
   color: #222222;
-  line-height: 70px;
+  line-height: 150%;
+  word-break: keep-all;
 }
 #notice .news_right {
+  width: 75%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
