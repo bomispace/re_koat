@@ -230,7 +230,8 @@ a {
       
         & .title {
           font-family: --main-font;
-          font-size: 3rem;
+          font-size: 2.5rem; letter-spacing: 0.02em;
+          word-break: keep-all;
         }
       
       }
